@@ -44,7 +44,7 @@ public class OnTrackServiceTest {
 		OnTrackService service = new OnTrackService();
 
 		Assert.assertEquals(
-				"PASS",
+				"PASSED",
 				service.checkTaskStatus("224870842", "7.1P")
 		);
 	}
